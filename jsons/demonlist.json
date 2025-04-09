@@ -1,0 +1,127 @@
+[
+    {
+        "name": "ButterFly",
+        "creator": "dizya1",
+        "verifier": "dizya1",
+        "imageURL": "https://raw.githubusercontent.com/ItZZefirfy/HUBL-DataBase/refs/heads/main/previews/1345.jpg",
+        "videoURL": "https://youtu.be/vl50pfmPsRQ?si=PSkIROzXQSzF50oV",
+        "levelID":"1345"
+    },
+    
+    {
+        "name": "Eternal",
+        "creator": "Ta6petKa",
+        "verifier": "Ruslanych",
+        "imageURL": "images/source/Eternal.png",
+        "videoURL": "https://youtu.be/KJMOmyOIh4c",
+        "levelID":"887"
+    },
+
+    {
+        "name": "Creator",
+        "creator": "dizya1",
+        "verifier": "dizya1",
+        "imageURL": "https://raw.githubusercontent.com/ItZZefirfy/HUBL-DataBase/refs/heads/main/previews/1323.jpg",
+        "videoURL": "https://www.youtube.com/watch?v=duABNBY3z-o",
+        "levelID":"1323"
+    },
+
+    {
+        "name": "Sparkler",
+        "creator": "--collaboration--",
+        "verifier": "-unknown-",
+        "imageURL": "https://raw.githubusercontent.com/ItZZefirfy/HUBL-DataBase/refs/heads/main/previews/1036.jpg",
+        "videoURL": "https://youtu.be/tRKhWrZEvYI?si=jiONSwqXEC2AEXH2",
+        "levelID":"1036"
+    },
+
+    {
+        "name": "Flaming Blossom",
+        "creator": "Better",
+        "verifier": "Better",
+        "imageURL": "https://raw.githubusercontent.com/ItZZefirfy/HUBL-DataBase/refs/heads/main/previews/1452.png",
+        "videoURL": "https://youtu.be/YyV0-bQUNug?si=EiAQOPlp4wy6VBIg",
+        "levelID":"1452"
+    },
+
+    {
+        "name": "Aquatic wave",
+        "creator": "-unknown-",
+        "verifier": "Artembird",
+        "imageURL": "https://raw.githubusercontent.com/ItZZefirfy/HUBL-DataBase/refs/heads/main/previews/542.jpg",
+        "videoURL": false,
+        "levelID":"542"
+    },
+
+    {
+        "name": "250 MPH",
+        "creator": "Artembird",
+        "verifier": "Artembird",
+        "imageURL": "https://raw.githubusercontent.com/ItZZefirfy/HUBL-DataBase/refs/heads/main/previews/454.jpg",
+        "videoURL": false,
+        "levelID":"454"
+    },
+
+    {
+        "name": "Heavy Metal",
+        "creator": "devilixer",
+        "verifier": "devilixer",
+        "imageURL": "https://raw.githubusercontent.com/ItZZefirfy/HUBL-DataBase/refs/heads/main/previews/1353.jpg",
+        "videoURL": false,
+        "levelID":"1353"
+    },
+
+    {
+        "name": "Apple Vomit",
+        "creator": "Artembird",
+        "verifier": "Artembird",
+        "imageURL": "images/source/Apple Vomit.png",
+        "videoURL": false,
+        "levelID":"596"
+    },
+
+    {
+        "name": "Astral Mirage",
+        "creator": "SteanDen",
+        "verifier": "Better",
+        "imageURL": "https://raw.githubusercontent.com/ItZZefirfy/HUBL-DataBase/refs/heads/main/previews/1428.png",
+        "videoURL": false,
+        "levelID":"1428"
+    },
+
+    {
+        "name": "Just Demon",
+        "creator": "Peredoznik",
+        "verifier": "-unknown-",
+        "imageURL": "https://raw.githubusercontent.com/ItZZefirfy/HUBL-DataBase/refs/heads/main/previews/232.jpg",
+        "videoURL": false,
+        "levelID":"232"
+    },
+
+    {
+        "name": "Claustrophobia",
+        "creator": "Better",
+        "verifier": "Better",
+        "imageURL": "https://raw.githubusercontent.com/ItZZefirfy/HUBL-DataBase/refs/heads/main/previews/1256.png",
+        "videoURL": false,
+        "levelID":"1256"
+    },
+
+    {
+        "name": "Just a demon",
+        "creator": "ItsDarknessCat ",
+        "verifier": "-unknown-",
+        "imageURL": "https://raw.githubusercontent.com/ItZZefirfy/HUBL-DataBase/refs/heads/main/previews/148.jpg",
+        "videoURL": false,
+        "levelID":"148"
+    },
+    
+    {
+        "name": "MrBeast",
+        "creator": "LomamovRu",
+        "verifier": "LomamovRu",
+        "imageURL": "images/source/mr beast.png",
+        "videoURL": "https://youtu.be/bEuRJiu_n1Y?si=Uzku5s_hbIyTOT96",
+        "levelID":"170"
+    }
+]

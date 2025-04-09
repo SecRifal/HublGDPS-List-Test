@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>More</title>
+
+        <link rel="stylesheet" href="styles/main.css">
+        <link rel="stylesheet" href="styles/info.css">
+        <link rel="stylesheet" href="styles/news.css">
+        <link rel="stylesheet" href="styles/effects/snow.css">
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+        <link rel="shortcut icon" href="images/icon.png">
+    </head>
+    <body>
+
+        <div id="top"></div>
+
+        <h1 class="shadow-1" id="lastNews">Последние новости</h1>
+        <div id="news-wrapper"></div>
+
+        <h1 class="shadow-1">Информация</h1>
+        <div class="more-info">
+            <h1>Основное</h1>
+            <a class="SendRequest" href="news.html"><button>Новости</button></a>
+            <a class="SendRequest" target="_blank" href="https://docs.google.com/document/d/1RSD93-DxZa2ogyBtForyD7j14-efxcwZMIrXeeZ_5i0/edit?usp=sharing"><button>Impossible Level List</button></a>
+            <a class="SendRequest" target="_blank" href="https://docs.google.com/document/d/1v0OmFtJTEZZICX5pOB2ZavGSROqfIipLOoKfPoTSeiI/edit?hl=ru&pli=1&tab=t.0"><button>Impossible Challenge list</button></a>
+            <a class="SendRequest" href="Options.html"><button>Настройки сайта</button></a>
+            <br>
+
+            Все вопросы в дс (zefirfy) или в тг (@zefirfy)<br>
+            Внимание! Данный сайт временно не поддерживает горизонтальное расположение мобильных устройств!
+            
+            <h1>Правила попадания</h1>
+            <ul>
+                <li>Наличе записи с кликами</li>
+                <li>Уровень должен быть <b>сложнее</b> топа 25</li>
+                <li>Уровень должен быть оценён и иметь сложность Extreme Demon (только для демонов)</li>
+            </ul>
+            <a href="https://github.com/ItZZefirfy/HUBL-list/blob/main/README.md" target="_blank">Подробнее</a>
+
+            <h1>Отправка уровня</h1>
+            <a class="SendRequest" href="https://docs.google.com/forms/d/e/1FAIpQLSeNYANosLFh2VtKtdgSRfaK7I_ccqqkQ5mFRc8auHZaqKJiVQ/viewform?usp=sf_link" target="_blank"><button>Добавить уровень</button></a>
+            <a class="SendRequest" href="https://docs.google.com/forms/d/e/1FAIpQLSd0urgAqIflGI5VoL-4CIOL2kYDQNF2jVpNYsbcZF48gvFHTA/viewform?usp=sf_link" target="_blank"><button>Отправить прохождение</button></a>
+            <p>Формы проверяются каждую неделю.</p>
+
+            <ul>
+                <li>Добавить уровень - добавление уровня в топ.</li>
+                <li>Отправить прохождение - Отправить своё прохождение уровня. Нужно для зачисления очков игроку.</li>
+            </ul>
+
+            <h1>Планы на будущее</h1>
+            <ul>
+                <li>Пофиксить баги на Firefox</li>
+                <li>Добавить фильтры в топе игроков</li>
+                <li>Добавить рулетку демонов</li>
+            </ul>
+
+        </div>
+
+        <div class="links">
+            <div class="links-wrapper">
+                <a href="https://discord.com/invite/T9CbNDCQKq"                target="_blank"><div class="s discord"  style="--main-color: #446ad1;"><i class='bx bxl-discord-alt'></i></div></a>
+                <a href="https://t.me/Hubl_gdps"                               target="_blank"><div class="s telegram" style="--main-color: #0099ff;"><i class='bx bxl-telegram'></i></div></a>
+                <a href="https://www.youtube.com/@hublgdps"                    target="_blank"><div class="s youtube"  style="--main-color: red;"><i     class='bx bxl-youtube'></i></div></a>
+                <a href="https://www.tiktok.com/@hublgdps?_t=8oqM5QUMm4V&_r=1" target="_blank"><div class="s tiktok"   style="--main-color: black;"><i   class='bx bxl-tiktok'></i></div></a>
+            </div>
+        </div>
+
+        <span id="version">v2.0.1.0</span>
+
+        <button onclick="topFunction()" class="scroll-btn" id="scroll-btn">
+            <i class='bx bx-up-arrow-alt'></i>
+        </button>
+
+        <div id="snow-wrapper"></div>
+        
+        <script src="js/settingsInit.js"></script>
+        <script src="js/scroll.js"></script>
+        <script src="js/addTop.js"></script>
+        <script src="js/BD.js"></script>
+        <script src="js/pages/lastNews.js"></script>
+        <script src="styles/effects/effects.js"></script>
+        <script>createTop(2); lastNews(2); if (effects) { addSnow(100, document.getElementById("snow-wrapper")) };</script>
+    </body>
+</html>
