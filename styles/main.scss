@@ -1,0 +1,59 @@
+@import 'settings';
+@import 'elements/levels';
+@import 'elements/players';
+@import 'elements/scroll';
+@import 'elements/top';
+@import 'elements/links';
+@import 'elements/info';
+
+* {
+    padding: none;
+    margin: none;
+}
+
+body {
+    font-family: var(--font-family);
+    background-color: #232323;
+    color: white;
+
+    background: url('../images/ListBG.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.levels-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+a, button {
+    user-select: none;
+}
+
+button {
+    font-family: var(--font-family);
+}
+
+.back {
+    outline: none;
+    border: none;
+    border-radius: 8px;
+}
+
+.flex-row-frame {
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-column-frame {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-wrap-frame {
+    flex-wrap: wrap;
+}

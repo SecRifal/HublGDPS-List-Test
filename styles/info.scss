@@ -1,0 +1,114 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.more-info {
+    width: 80vw;
+    padding: 0 3vw;
+    padding-bottom: 3vh;
+    background-color: var(--info-bg-color);
+    backdrop-filter: blur(8px);
+    color: var(--default-text-color);
+
+    border-radius: 12px;
+
+    a {
+        color: white;
+        transition: .1s;
+
+        @media (hover: hover) {
+            &:hover {
+                color: #3f52ff;
+            }
+        }
+        
+        &:active {
+            color: #3f52ff;
+        }
+
+    }
+}
+
+.SendRequest {
+    text-decoration: none;
+    
+    button {
+        font-family: var(--font-family);
+
+        color: white;
+        padding: 10px;
+        background-color: #3f52ff;
+        border-radius: 12px;
+        transition: .25s;
+
+        border: none;
+        outline: none;
+    }
+
+    @media (hover: hover) {
+        &:hover {
+            filter: brightness(90%);
+        }
+    }
+}
+
+.Disabled {
+    button {
+        background-color: #424242;
+        color: #888;
+    }
+    
+    @media (hover: hover) {
+        &:hover {
+            filter: none;
+        }
+    }
+}
+
+.shadow-1 {
+    text-shadow: 0 0 5px black;
+}
+
+input[type="checkbox"] {
+    transform: scale(150%);
+    border: none;
+    outline: none;
+
+    transition: .2s ease-in-out;
+}
+
+.checkbox {
+    //background-color: green;
+    font-size: 1.5rem;
+    color: var(--third-text-color);
+    transition: .2s ease-in-out;
+    background: none;
+    border: none;
+    outline: none;
+
+    text-align: left;
+
+    margin: 5px;
+
+    @media (hover: hover) {
+        &:hover {
+            color: var(--default-text-color);
+        }
+    }
+}
+
+.checkbox-selected {
+    color: var(--default-text-color);
+    transform: translateX(10px);
+    text-shadow: 0 0 3px var(--default-text-color);
+
+    @media (hover: hover) {
+        &:hover {
+            color: var(--secondary-text-color);
+            text-shadow: none;
+        }
+    }
+}

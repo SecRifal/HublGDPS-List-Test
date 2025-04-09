@@ -1,0 +1,35 @@
+#news-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.news-post {
+    width: 80vw;
+    padding: 0 3vw;
+    padding-bottom: 3vh;
+    background-color: var(--info-bg-color);
+    backdrop-filter: blur(8px);
+    color: var(--default-text-color);
+
+    border-radius: 12px;
+
+    margin: 15px 0;
+    padding: 30px;
+
+    animation: .5s 1 spawn-news-post;
+}
+
+.news-column-flex-frame {
+    display: flex;
+}
+
+.news-font-icon {
+    transform: translateY(15px);
+}
+
+@keyframes spawn-news-post {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
